@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bootstrap </title>
+        <link rel = "icon" type = "image/x-icon" href = "rv.jpg">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        </head>
+        <body>
+            <nav class = "navbar navbar-expand-sm bg-dark nav-dark">
+                <ul class = "navbar-nav">
+                    <a class =  "nav-link" href = "#"> Home </a>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#"> Bookstore </a>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "login.html">Login</a>
+                            <li class = "nav-item">
+                                <a class = "nav-link" href = "Register.html">Register</a>
+                                <li class = "nav-item">
+                                    <a class = "nav-link" href = "profile.html">Profile</a>
+                            </li>       
+                        </li>
+                    </li>
+                </ul>
+            </nav>
+        <br>
+        <div class = "jumbotron text-center">
+            <img src = "rv.jpg" >
+            <h1> RVCE BOOK STORE</h1>
+        </div>
+        <div class="container">
+          <!-- <h2 class="text-center mt-5">Books Catalog</h2> -->
+            <div class="row mt-5">
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="book1.jpeg" alt="Book 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">oreally publications</p>
+                    <p class="card-text">Rs10.00</p>
+                    <button class="btn btn-primary btn-block" onclick="myFunction()">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="book2.jpeg" alt="Book 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">oreally publications</p>
+                    <p class="card-text">Rs15.00</p>
+                    <button class="btn btn-primary btn-block" onclick="myFunction()">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="book1.jpeg" alt="Book 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">oreally publications</p>
+                    <p class="card-text">RS12.00</p>
+                    <button class="btn btn-primary btn-block" onclick="myFunction()">Add to Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script>
+           function myFunction() {
+            alert("Added to cart successfully!");
+            }
+          </script>
+        </body>
+        </html>
+        
